@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+  <package>
+  <name>archie_msgs</name>
+  <version>0.0.1</version>
+  <description>Archie robot custom messages package</description>
+
+  <maintainer email="13396312+skydancerbg@users.noreply.github.com">dev</maintainer>
+
+  <license>New BSD License</license>
+
+
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <build_depend>message_generation</build_depend>
+  <build_depend>std_msgs</build_depend>
+  <build_depend>geometry_msgs</build_depend>
+
+
+  <run_depend>message_runtime</run_depend>
+  <run_depend>std_msgs</run_depend>
+  <run_depend>geometry_msgs</run_depend>
+
+  <export>
+  </export>
+
+</package>
+
